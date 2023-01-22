@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Aulas JS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapperGeral">
+
+        <div class="aula aula1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/v_kyWfy_sx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4>Aula 01 - História e Aplicações <span>></span></h4>
+            <div class="hidden">
+                <h5>Criador - Ano:</h5>
+                <p>Brendan Eich - 1996</p>
+                <h5>Intuito:</h5>
+                <p>Dinamizar conteúdos na internet, que era muito 'estática', lenta, na época</p>
+                <h5>Vantagens:</h5>
+                <ul>
+                    <li>Leve, compatível com todos os navegadores
+                    <li>Flexível, podendo ser utilizada desde para desenvolver websites à aplicativos à jogos
+                    <li>Linguagem de programação mais utilizada no mundo
+                </ul>
+                <h5>Quem usa:</h5>
+                <ul>
+                    <li>Youtube
+                    <li>Google
+                    <li>Dino (quando você fica sem internet no chrome)
+                </ul>                
+            </div>
+        </div>
+        <div class="aula aula2">
+            <iframe src="https://www.youtube.com/embed/2-xWkfoXnmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4>Aula 02 - Download e preparação do ambiente <span>></span></h4>
+            <div class="hidden">
+                <h5>Links importantes</h5>
+                <p><a href="https://code.visualstudio.com/" target="_blank" >Visual Studio Code</a></p>
+                <p><a class="py" href="https://www.python.org/downloads/" target="_blank" >Python Download</a></p>
+            </div>
+        </div>
+        <div class="aula aula3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JjrpARTe8wI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4>Aula 03 - Variáves <span>></span></h4>
+            <div class="hidden">
+                <h5>Variáveis:</h5>
+                <p>São como legendas, que facilitam na hora de guardar valores e informações que vamos utilizar mais na frente no código.</p>
+                <p>Ex:<br>
+                    var meuNome = "Felipe";
+                </p>
+                
+                <h5>Prompt:</h5>
+                <p>Caixa de diálogo, que permite ao usuário digitasr algum dado</p>
+                <p>Ex:<br>
+                    var resposta = prompt("Responda essa pergunta: ");
+                </p>
+
+                <h5>Confirm:</h5>
+                <p>Pergunta de sim ou não, devolve o valor "true" ou "false" - dependendo da resposta do usuário.</p>
+            </div>
+        </div>
+        <div class="aula aula4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ycB9P3WA_3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4>Aula 04 - Operadores Matemáticos e Tipos Primitivos <span>></span></h4>
+            <div class="hidden">
+                <h5>Principais tipos primitivos:</h5>
+                <p>String = tudo que está entre aspas<br>
+                ex: var nome = "João";<br>
+                ex: var frase = "Eu tenho 2 gatos";</p>
+
+                <p>Number = qualquer valor numérico
+                ex: var meuNumero = 8;</p>
+
+                <p>typeof( ) = função para descobrir o tipo primitivo</p>
+
+                <h5>Operadores matemáticos:</h5>
+                <ul>
+                    <li>+ (soma)
+                    <li>- (subtração)
+                    <li>/ (divisao)
+                    <li>* (multiplicação)
+                    <li>** (potenciação)
+                    <li>Math.sqrt() (raiz quadrada)
+                </ul>
+
+                <h5>Operadores com variáveis:</h5>
+                <p>var soma = 8 + 8<br>
+                soma = 16<br>
+                Com dois Numbers será feito um cálculo normal de matemática<p>
+
+                <p>var frase = "Oi, " + "tudo bem?"<br>
+                frase = Oi, tudo bem?<br>
+                Com duas strings, juntará as duas frases<p>
+
+                <p>var stringNumber = "Meu número é: " + 7<br>
+                stringNumber = Meu número é 7<br>
+                Com String e Number, juntará os dois, virando apenas uma string<p>
+            </div>
+        </div>
+        <div class="aula aula5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VJhW6ZhMW8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4>Aula 05 - Variáveis <span>></span></h4>
+            <div class="hidden">
+                <p>O computador lê a variável como o valor que você deu<br>
+                var primeira = 5;<br>
+                var segunda = 2 * 10;<br>
+                var terceira = primeira + segunda;<br>
+                console.log(terceira);<br>
+                Nesse caso, será mostrado que a “terceira” é 25, pois foi dito ao computador que ela vale 5 + 20.<br>
+                var biscoitos = 10 * 3/2;<br>
+                var agua = 5 * 3;<br>
+                var desconto = 60/100;<br>
+                var precoTotal = biscoitos + agua<br>
+                console.log(“Preço sem desconto: “ + precoTotal + “ reais”);<br>
+                var precoTotalDesconto = precototal - precototal * desconto;<br>
+                console.log(“Preço com desconto: “ + precoTotalDesconto + “ reais”);</p>
+
+                <p>Repare como nesse exemplo fizemos cálculos já nas variáveis, cálculos com variáveis e também misturamos Strings com Numbers, na forma de var, na hora de usar o “console.log”</p>
+            </div>
+        </div>
+        <div class="aula aula6">
+            <iframe src="https://www.youtube.com/embed/7F0Z2k_D85Q" controls></iframe>
+            <h4>Aula 06 - Operadores Condicionais If & Else <span>></span></h4>
+            <div class="hidden">
+                <p>Se uma determinada condição for verdadeira, faz uma coisa, caso não seja, faz outra</p>
+                <p>Ex:
+                    <pre>
+                If condicaoVerdadeira {
+                    acao1
+                } Else {
+                    acao2
+                }
+                    </pre>
+                </p>
+            </div>
+        </div>
+        <div class="aula aula7">
+            <iframe src="https://www.youtube.com/embed/jwuIuWV0qVg" controls></iframe>
+            <h4>Aula 07 - Laços de Repetição For & While <span>></span></h4>
+            <div class="hidden">
+                <p>Executam uma certa ação determinadas vezes</p>
+                <h5>For loop</h5>
+                <p>Recebe 3 parâmetros, um valor inicial, uma condição para seguir, e um salto (de quanto esse valor vai variar).</p>
+                <p>Ex:<pre>
+                var i;
+                for (i = 0; i < 10; i++){
+                    condição
+                }</pre></p>
+                <h5>While loop</h5>
+                <p>Verificará a verácidade de uma condição e repetirá uma (ou mais) ação(ões) enquanto está for verdadeira</p>
+                <p>Ex:<pre>
+                var i = 0;
+                While (i < 10){
+                    i++
+                }
+                </pre></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="functions.js"></script>
+    
+</body>
+</html>
